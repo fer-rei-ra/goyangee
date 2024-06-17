@@ -1,0 +1,157 @@
+html {
+  color: #e3e3e3;
+  background-color: #1c1c1c;
+  height: 100%;
+  width: 100%;
+  padding-top: 3.5%;
+  padding-left: 12%;
+  padding-right: 12%;
+  box-sizing: border-box;
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+a {
+  color: #3F99D1;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  color: #BDC0C2;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+h2 {
+  color: #BDC0C2;
+}
+
+hr {
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-color: #38393b !important;
+  border-top: 1px solid rgba(0, 0, 0, .1);
+  width: 100%;
+}
+
+table {
+  border-spacing: 0;
+}
+
+th {
+  background-color: #38393B;
+  padding: 0.8%;
+}
+
+td {
+  color: #BDC0C2;
+  text-align: center;
+  padding: 0.8%;
+}
+
+.menu {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  margin-bottom: 1%;
+  display: flexbox;
+  background-color: #262626;
+  justify-content: space-around;
+}
+
+.title_img {
+  vertical-align: middle;
+  width: 35px;
+  height: 35px;
+}
+
+.info {
+  font-size: 15px;
+  background-color: #2D3829;
+  color: #699269;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  margin-top: 2%;
+  margin-bottom: 1%;
+  padding-left: 1%;
+  padding-right: 1%;
+  display: flex;
+  align-items: baseline;
+}
+.info_img {
+  vertical-align: middle;
+  height: 20px;
+  width: 20px;
+}
+
+.note {
+  font-size: 15px;
+  background-color: #2B383E;
+  color: #5C8CA4;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  padding-left: 1%;
+  padding-right: 1%;
+  display: flex;
+  align-items: baseline;
+}
+.note_img {
+  vertical-align: middle;
+  width: 18px;
+  height: 17px;
+}
+
+.box_1, .box_2, .box_3, .box_4 {
+  padding-top: 1%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  font-weight: 500;
+}
+
+.box_1_title, .box_2_title, .box_3_title, .box_4_title {
+  font-size: larger;
+  line-height: 1px;
+  font-weight: 700;
+}
+
+.box_1_title_img, .box_2_title_img, .box_3_title_img, .box_4_title_img {
+  vertical-align: middle;
+  height: 28px;
+  width: 30px;
+}
+
+.box_1_table, .box_2_table, .box_3_table, .box_4_table {
+  width: 100%;
+  margin: auto;
+}
+
+.td_false {
+  border-right: 0.8px solid;
+  border-color: #38393B;
+}
+
+.td_true {
+  border-right: 0.8px solid;
+  border-color: #38393B;
+  background-color: #2C2C2C;
+}
+
+.td_true_false {
+  background-color: #2C2C2C;
+}
+
+.download {
+  width: 30%;
+}
+
+.verde {
+  color: #699269;
+}
